@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "CapatApp",
+    "slug": "CapatApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.capatapp.capatapp",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan QR codes.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone to record sounds.",
+        "NSPhotoLibraryUsageDescription": "This app accesses the photo library for profile pictures.",
+        "NSLocationWhenInUseUsageDescription": "This app uses location services to find nearby places."
+      }
+    },
+    "android": {
+      "package": "com.capatapp.capatapp",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAwq-GcCXXBzlFL3IBnyVE9SHVbV4lzLSo"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "30f88e38-48df-4a36-a218-691a6c6a0c76"
+      }
+    },
+    "notification": {
+      "icon": "./assets/notification-icon.png",
+      "color": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
